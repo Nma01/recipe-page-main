@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Outfit', serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: hsl(30, 10%, 34%);
+  line-height: 1.8;
+}
+
+.container {
+  width: 65%;
+  max-width: 1440px;
+  margin: 100px auto;
+}
+
+.container img {
+  max-width: 100%;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-family: 'Young Serif', serif;
+  font-weight: 400;
+  color: black;
+  margin-bottom: 10px;
+}
+
+
+
+ul,
+ol {
+  margin-left: 25px;
+}
+
+ul li,
+ol li {
+  padding-left: 10px;
+}
+
+li,
+td {
+  padding: 5px 0;
+}
+
+span {
+  font-weight: 700;
+}
+
+.preparation {
+  margin: 30px 0;
+  margin-left: 30px;
+}
+
+.preparation h2 {
+  color: hsl(332, 51%, 32%);
+  font-weight: 500;
+}
+
+.preparation ul li::marker {
+  color: hsl(332, 51%, 32%);
+}
+
+.universal {
+  margin: 30px 0;
+}
+
+.universal h1 {
+  font-size: 28px;
+  font-weight: 400;
+  font-family: 'Young Serif', serif;
+  color: hsl(14, 45%, 36%);
+}
+
+
+
+.nutrition table {
+  margin: 20px 0 0 30px;
+}
+
+/*  */
+.nutrition td {
+  padding-right: 250px;
+}
+
+table span{
+    color: hsl(14, 45%, 36%);
+}
+
+/*  footer */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* media queries */
+@media only screen and (max-width: 600px) {
+    .container{
+        margin: 0;
+        width: 100%;
+    }
+
+    .content{
+        margin: 0 14px;
+    }
+
+  .nutrition td {
+    /* padding-right: 80px; */
+    padding-right: 70px;
+  }
+
+  header h1{
+    line-height: 1.2;
+    font-size: 30px;
+  }
+}
